@@ -13,8 +13,8 @@ console.log("The atributes of the Samsung are");
 console.log(samsungGalaxy10);
 
 //console.log("Nokia Modificated");
-nokia3210.cameraNumber = 4;
-nokia3210.is5G = true
+//nokia3210.cameraNumber = 4;
+//nokia3210.is5G = true
 //console.log(nokia3210);
 
 console.log("The atributes of the Nokia are");
@@ -23,3 +23,10 @@ console.log("The atributes of the Iphone are");
 console.log(iphone3G);
 console.log("The atributes of the Samsung are");
 console.log(samsungGalaxy10);
+
+console.log("The characteristics of the Nokia are");
+console.log(nokia3210.atributos());
+console.log("The characteristics of the Iphone are");
+console.log(iphone3G.atributos());
+console.log("The characteristics of the Samsung are");
+console.log(samsungGalaxy10.atributos());
