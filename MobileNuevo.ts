@@ -9,6 +9,7 @@ let Iphone: Mobile = new Mobile("Iphone", "12", "Apple", "125GB", "negro", true,
 let allMobiles = [Xiaomi,LG,Sony,Iphone];
  
 let objetcLibraryNew = new MobileLibrary("Blackberry","USA",allMobiles);
+let nuevoMetodo= new MobileLibrary("Sony","class2", allMobiles)
 
 console.log("totalPriceCalculation");
 console.log(objetcLibraryNew.totalPriceCalculation());
@@ -36,3 +37,7 @@ console.log(objetcLibraryNew.getTotalprice());
 /////
 console.log("setTotalPrice");
 console.log(objetcLibraryNew.setTotalprice(500));
+
+console.log("printLibrary");
+console.log(nuevoMetodo.printLibrary());
+console.log("Priceoverall:  " + nuevoMetodo.totalPriceCalculation());
